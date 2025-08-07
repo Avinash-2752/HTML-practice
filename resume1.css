@@ -1,0 +1,35 @@
+header{
+    /* background-color: bisque; */
+    border-radius: 2px;
+    border-color: black;
+    margin-right: 780px;
+}
+#box1{
+    background-color: rgb(240, 215, 236);
+    
+    
+}
+#img{
+    border-radius: 400px;
+    width:128px;
+    height:128px;
+
+  
+}
+#container{
+    display: flex;
+    /* background-color: aquamarine; */
+    
+}
+#box2{
+    background-color: rgb(222, 227, 163);
+    
+    
+}
+#box3{
+    background-color: rgb(144, 209, 196);
+    width: 780px;
+    padding:6px;
+    
+    
+}

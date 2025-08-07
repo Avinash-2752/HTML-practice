@@ -1,0 +1,66 @@
+#box1{
+    width:200px;
+    height: 150px;
+    background-color: blueviolet;
+
+
+/* #box1:hover{ */
+    /* border-radius: 20px; */
+    /* transition-property: height;
+    transition-delay: 1s;
+    transform:rotate(69deg); */
+     /* transform:scale(6); */
+ animation-name: myanimie;
+     animation-duration: 5s;
+     animation-timing-function:ease-in;
+     animation-iteration-count:infinite;
+     
+} 
+#box2{
+    width:200px;
+    height: 150px;
+    background-color: rgb(48, 134, 101);
+
+
+/* #box2:hover{ */
+    border-radius: 20px;
+    transition-property: height;
+    transition-delay: 0s;
+    transform:rotate(49deg);
+    animation-name: myanimie;
+     animation-duration: 10s;
+     animation-timing-function:ease-in;
+     animation-iteration-count:infinite;
+}
+#box3{
+    width:200px;
+    height: 150px;
+    background-color: rgb(201, 211, 5);
+
+
+/* #box3:hover{ */
+    border-radius: 20px;
+    transition-property: height;
+    transition-delay: 0s;
+    /* transform:rotate(18deg); */
+    transform:skew(30deg);
+    animation-name: myanimie;
+     animation-duration: 10s;
+     animation-timing-function:ease-in-out;
+     animation-iteration-count:infinite;
+}
+ @keyframes myanimie{
+    from{
+        
+        transform: translate(0px);
+        transition-property: height;
+        height:80px;
+    transition-delay: 0s;
+    
+    }
+    to{
+        
+        transform: translate(700px);
+    }
+    
+} 

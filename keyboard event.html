@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard Events</title>
+    <script>
+        function robot()
+        {
+            alert(" Key pressed");
+        }
+        function robo()
+        {
+            alert("Key up ");
+        }
+        function chitti()
+        {
+            alert("Key Down");
+        }
+
+        
+        
+    </script>
+</head>
+<body>
+    <h2>A function is triggered when the user is pressing a key in the keyboard</h2>
+    <input type="text" onkeypress="robot()" placeholder="Enter a Key">
+    <input type="text" onkeyup="robo()"  placeholder="Enter a Key">
+    <input type="text" onkeydown="chitti()"  placeholder="Enter a Key">
+</body>
+</html>

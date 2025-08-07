@@ -1,0 +1,15 @@
+tr:hover{
+    background-color: rgb(218, 204, 204);
+    opacity: 20px;
+}
+  table,th,tr,td{
+    border:1px solid black;
+    border-collapse: collapse;
+  }  
+
+
+h1{
+    text-align: center;
+    text-decoration-thickness: 50px;
+    color: blue;
+}   

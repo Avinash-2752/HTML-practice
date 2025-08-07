@@ -1,0 +1,76 @@
+h1{
+    text-align: center;
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    
+    font-style: oblique;
+    background-color:rgb(103, 124, 58);
+}
+#a{
+    padding: 10px;
+    align-self:center;
+    background-color: rgb(58, 128, 139);
+    box-shadow: 20px;
+    border-radius: 30px;
+}
+footer{
+    padding:70px;
+    background-color: rgb(58, 92, 117);
+    align-self:center;
+}
+label{
+    text-align: center;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    
+}
+#video{
+    box-shadow: 40px;
+    border-radius: 20px;
+    border-style: dotted;
+    border-color: aquamarine;
+}
+#audio{
+    border-width: 40px;
+    padding: 50px;
+    align-self: center;
+    border-radius: 20px;
+}
+#youtube{
+    padding: 40px;
+    border-radius: 20px;
+    border-color: black;
+    align-self: center;
+
+}
+#google:hover {
+    border: 3px solid black;
+    border-radius: 20px;
+}  
+    
+input[type=name]{
+     transition: width 0.4s ease-in-out;
+}
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+
+
+/* .carousel-cell {
+  width: 80%;
+  height: 500px;
+  margin-right: 10px;
+ 
+  border-radius: 5px;
+ 
+} */
+ video{
+    object-fit: cover;
+ }
+
+
+
+    

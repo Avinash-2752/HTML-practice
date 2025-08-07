@@ -1,0 +1,15 @@
+head{
+    border-style: black;
+    color:rgb(255, 89, 0);
+    padding:80px;
+}
+section{
+     border-style: black;
+    color:rgb(42, 165, 67);
+    padding:90px;
+}
+body{
+     border-color: black;
+    color:rgb(255, 0, 0);
+    padding:60px;
+}

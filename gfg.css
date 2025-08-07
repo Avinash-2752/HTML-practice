@@ -1,0 +1,149 @@
+.img{
+    width:134px;
+    height:164px;
+    margin-left:680px ;
+    box-shadow: 20px;
+    border-radius: 1500px;
+    border-color: antiquewhite;
+
+}
+.h2{
+    padding: 10px;
+    
+    border-width: 40px;
+    text-align: center;
+    text-decoration: solid;
+    text-shadow: 30px;
+    font-style:oblique;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(153, 221, 161);
+}
+.body{
+    background-image: url(avinash\ pic.jpg);
+    background-position: cover;
+}
+.para{
+    text-align: center;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    margin-left: 50px;
+}
+#a{
+    display:flex;
+    justify-content: center;
+    text-shadow:3px;
+}
+.box{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    align-content: center;
+    justify-items: center;
+    margin-left: 650px;
+}
+.container{
+    display:flex;
+    /* float:left; */
+    justify-content:center;
+    text-indent:80px;
+}
+#all:hover,#dsa:hover,#full:hover,#front:hover,#back:hover{
+    border-radius: 30px;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+/* .images{
+     display: flex;
+      justify-content: center; 
+}   
+  */
+ 
+#img1,#img2,#img3,#img4{
+   
+    height: 195px;
+    width: 215x;
+    margin-top:20px;
+    margin-left:400px;   
+}
+#img1:hover,#img2:hover,#img3:hover,#img4:hover{
+    border-radius: 20px;
+    width: 300px;
+    border-color: black;
+    border-style:hidden;
+}
+
+    
+#all{
+    /* float: left; */
+    margin-right: 130px;
+}
+#dsa{
+    /* float: left; */
+    margin-right: 20px;
+}
+#full{
+    margin-right: 10px;
+    /* float: left; */
+}
+.footer{
+    background-color:rgb(163, 237, 173);
+    padding:18px;
+    text-align: center;
+
+}
+/* .img{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+} */
+
+.links{
+    float: right;
+   
+    margin-bottom: 48px;
+/* display: inline-block; */
+}
+input:focus,select:focus{
+    background-color: yellow;
+}
+input{
+    width:20px;
+    transition: width 2s ease-in-out;
+}
+input:hover{
+    width:200px;
+}
+.para1{
+    text-align: center;
+    font-size: medium;
+    font-weight: 200;
+    font-family:'Times New Roman', Times, serif;
+    padding: 5px;
+    visibility: hidden;
+    background-color:aliceblue;
+    color:black;
+    width:80px;
+    border-radius: 20px;
+   
+}
+.para:hover .para1{
+    visibility: visible;
+}
+.carousel-cell {
+  width: 90%;
+  height: 500px;
+  /* margin-left: 850px; */
+  border-radius: 5px;
+ 
+}
+
+/* #h4{
+    color: red;
+} */
+
+    

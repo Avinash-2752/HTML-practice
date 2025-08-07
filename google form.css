@@ -1,0 +1,24 @@
+section{
+    padding:30px;
+   
+    
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+#box{
+     background-image:url("bg\ image.jpg");
+   
+     background-size: cover;
+}
+input[type=text]{
+    transition-property: width;
+    transition-duration: 4s;
+    transition-timing-function: ease-in-out;
+}
+input[type=text]:focus{
+    width: 25%;
+}
+
+   
+   

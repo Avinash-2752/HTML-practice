@@ -1,0 +1,39 @@
+#dropodown-content{
+    display: none;
+    border:2px solid black;
+    z-index: 1;
+}
+#dropdown:hover,#dropdown-content{
+    background-color: antiquewhite;
+    border-radius: 20px;
+    box-shadow: 20px;
+}
+#section{
+    border:30px solid;
+    width:200px;
+    border-image:url(bg1.jpg) 21 round; 
+    /* background-color:antiquewhite;   */
+}
+body{
+    padding: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+#images{
+    width:900px;
+    height:900px;
+    border:2px solid black;
+    background-image: url(bg\ image.jpg),url(bg1.jpg);
+    background-position: top left,center;
+    background-repeat: no-repeat;
+    /* object-fit: fill; */
+}
+#section1{
+    border:2px solid black;
+    width:40px;
+    height:40px;
+}
+#photo{
+    object-fit: contain;
+    object-position: 15% 50%;
+}

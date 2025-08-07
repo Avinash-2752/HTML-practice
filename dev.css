@@ -1,0 +1,32 @@
+*{
+    color: blue;
+    background-color: beige;
+    font-family: 'Courier New', Courier, monospace;
+}
+#box{
+    background-color: blue;
+    padding: 40px;
+}
+.A ,.B{
+    color: red;
+    background-color: #e6e0e0;
+}
+p{
+    background-color: hotpink;
+    display: none;
+}
+div:hover p{
+    display: block;
+}
+
+input{
+    color: blue;
+    width: 90px;
+    height: 90px;
+    resize: both;
+    overflow: auto;
+}
+
+
+    
+
